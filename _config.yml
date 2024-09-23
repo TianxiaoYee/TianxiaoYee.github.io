@@ -25,17 +25,19 @@ email: tye46@wisc.edu
 description: >-
   Building [World Labs](https://www.worldlabs.ai/about), zero to one.
 
-  I am a researcher in 3D computer vision, generative models, and computer graphics. I was previously a research scientist at [Google](https://ai.google/research/).
+  I am a researcher and engineer in Robot dynamics and control. I am currently open to job and PhD opportunities.
 
-  I received my Ph.D from the [University of Washington](https://grail.cs.washington.edu/) in 2021 where I was advised by
-  [Ali Farhadi](https://homes.cs.washington.edu/~ali/) and
-  [Steve Seitz](https://homes.cs.washington.edu/~seitz/).
+  I am pursuing my thesis-based Master's degree at the University of Wisconsin-Madison where I was advised by
+  [Xiangru Xu](https://directory.engr.wisc.edu/me/Faculty/Xu_Xiangru/) and will graduate in May 2025. 
+  
+  Before this, I spent a year as an exchange student at the University of Illinois at Chicago where I was advised by [A. Enis Cetin](https://ieeexplore.ieee.org/author/38186428600) and received my B.S. in Robotics Engineering from [Harbin Institute of Technology](https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology) in 2023.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fuwafuwaboom.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: KeunhongP
-github_username: keunhong
-google_scholar: HVZb-5oAAAAJ
-google_analytics: G-MFWSBLRKG0
+github_username: fuwafuwaboom
+google_scholar: qmcu3SUAAAAJ
+google_analytics: G-PPPJ189F0F
+
 
 # Build settings
 theme: minima
