@@ -3,29 +3,39 @@
   venue: Jun 2024 - Sep 2024
   description: "Integrating the state-of-the-art nonlinear model predictive control solver with ROS and deploying it on an autonomous vehicle."
   project_page: https://link.springer.com/article/10.1007/s11760-023-02728-3
-  image: wildfire_cover.png
+  image: ACADOS_cover.png
   image_mouseover: wildfire_video.mp4
   authors:
     - Tianxiao
 
-- id: VIO
-  title: "My effort"
-  venue: SIVP, 2024
-  description: "Surveys wildfire detection neural networks using transfer learning on visible-range camera data."
+- id: AutoData
+  title: "Fully automated virtual autonomous vehicle data collection"
+  venue: Jul 2024 - Aug 2024
+  description: "Image, IMU, and ground truth data collection for a fully automated self-driving car based on Gazebo and ACADO."
   project_page: https://link.springer.com/article/10.1007/s11760-023-02728-3
-  arxiv: 2306.12276
-  image: wildfire_cover.png
+  image: AutoData_cover.png
   image_mouseover: wildfire_video.mp4
   authors:
     - Tianxiao
 
 - id: Navigation
-  title: "My effort"
-  venue: SIVP, 2024
-  description: "Surveys wildfire detection neural networks using transfer learning on visible-range camera data."
+  title: "2D Lidar-Based Autonomous Obstacle Avoidance and Navigation Vehicle"
+  venue: Apr 2024 - May 2024
+  description: "Autonomous navigation algorithm based on the move base algorithm and a 2D grid map using the Velodyne Puck lidar."
   project_page: https://link.springer.com/article/10.1007/s11760-023-02728-3
   arxiv: 2306.12276
-  image: wildfire_cover.png
+  image: Navigation_cover.png
+  image_mouseover: wildfire_video.mp4
+  authors:
+    - Tianxiao
+
+- id: VIO
+  title: "Handheld Visual-Inertial Odometry Design"
+  venue: Feb 2024 - Mar 2024
+  description: "Visual-Inertial Odometry Algorithm Based on OpenVINS Deployed on Jetson Orin Nano."
+  project_page: https://link.springer.com/article/10.1007/s11760-023-02728-3
+  arxiv: 2306.12276
+  image: VIO_cover.png
   image_mouseover: wildfire_video.mp4
   authors:
     - Tianxiao
