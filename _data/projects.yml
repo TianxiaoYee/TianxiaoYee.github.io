@@ -9,7 +9,7 @@
     - Tianxiao
 
 - id: AutoData
-  title: "Fully automated virtual autonomous vehicle data collection"
+  title: "Fully Automated Virtual Autonomous Vehicle Data Collection"
   venue: Jul 2024 - Aug 2024
   description: "Image, IMU, and ground truth data collection for a fully automated self-driving car based on Gazebo and ACADO."
   project_page: https://link.springer.com/article/10.1007/s11760-023-02728-3
