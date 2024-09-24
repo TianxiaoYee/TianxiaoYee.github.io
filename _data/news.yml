@@ -1,34 +1,17 @@
-- date: May 2022
-  description: I have defended and have joined Google as a research scientist.
+- date: July 2024
+  description: >-
+    I hosted members from [Robotics Laboratory](https://robotics-laboratory.square.site/) Lab as the main speaker, presenting my drone and unmanned vehicle projects.
 
-- date: Oct 2021
-  description: >-
-    [_FiG-NeRF_](https://fig-nerf.github.io) has been accepted to 3DV 2021.
+- date: May 2024
+  description: I ended my role as a volunteer and officially joined the [UW-Madison ARC Lab](https://xu.me.wisc.edu/) as a member.
 
-- date: Sep 2021
-  description: >-
-    [_HyperNeRF_](https://hypernerf.github.io) has been accepted to SIGGRAPH Asia
-    2021. We have also released the [code](https://github.com/google/hypernerf).
+- date: Apr 2024
+  description: I participated in the [UW-Madison Engineering EXPO](https://engineeringexpo.wisc.edu/) as a main representative of ARC LAB.
 
-- date: Jul 2021
+- date: Aug 2023
   description: >-
-    [_Nerfies_](https://nerfies.github.io) has been accepted to ICCV 2021 as an oral
-    presentation.
+    Our survey on [_Wildfire detection via transfer learning_](https://link.springer.com/article/10.1007/s11760-023-02728-3) has been published to SIVP 2024.
 
-- date: Jun 2021
-  description: >-
-    We present [_HyperNeRF_](https://hypernerf.github.io), which uses ideas
-    from level set methods to model topologically changing scenes.
-
-- date: Nov 2020
-  description: >-
-    We present [_Nerfies_](https://nerfies.github.io), a way to turn
-    casually captured selfie videos into free-viewpoint visualizations.
-- date: Jun 2020
-  description: >-
-    We've released the
-    [code](https://github.com/NVlabs/latentfusion) and
-    [data](https://latentfusion.github.io) for [_LatentFusion_](https://latentfusion.github.io).
-- date: Feb 2020
+- date: Apr 2023
   description: >-
     My senior design [_Tonkla_](https://engineeringexpo.uic.edu/news-stories/mie-60-high-power-electric-motorcycle-design-and-assembling-scheme-40/) was awarded the [Best in Show](https://github.com/fuwafuwaboom/fuwafuwaboom.github.io/blob/main/images/uic_expo.jpg) at the UIC Engineering EXPO.
