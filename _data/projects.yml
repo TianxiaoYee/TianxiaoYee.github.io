@@ -1,9 +1,8 @@
 - id: ACADOS
-  title: "An Efficient Real-Time NMPC for Unmanned Ground Vehicle Trajectory Tracking Control using ACADOS"
-  venue: Sep 2024
-  description: "Surveys wildfire detection neural networks using transfer learning on visible-range camera data."
+  title: "An Efficient Real-Time NMPC for UGV Trajectory Tracking Control using ACADOS"
+  venue: Jun 2024 - Sep 2024
+  description: "Integrating the state-of-the-art nonlinear model predictive control solver with ROS and deploying it on an autonomous vehicle."
   project_page: https://link.springer.com/article/10.1007/s11760-023-02728-3
-  arxiv: 2306.12276
   image: wildfire_cover.png
   image_mouseover: wildfire_video.mp4
   authors:
