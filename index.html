@@ -168,6 +168,74 @@ layout: null
           </div>
         </div>
       </div>
+
+      <h2 class="title is-3">Projects</h2>
+
+      {% for projects in site.data.projects %}
+      <div class="project-block columns">
+
+        <div class="column is-2">
+          <div class="project-image {% if project.image_mouseover %}project-mousecell{% endif %}">
+            {% if project.image_mouseover contains "mp4" %}
+            <video autoplay preload playsinline class="" height="100%" loop muted width="100%">
+              <source src="./images/{{ project.image_mouseover }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            {% endif %}
+            <img alt="{{ project.title }}" src="./images/{{ project.image }}" />
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <h3 class="project-title"><a href="{{ project.project_page }}">{{ project.title }}</a></h3>
+            <div class="project-authors">
+              {% for author_id in project.authors %}
+              {% assign author = site.data.authors[author_id] %}
+              <span class="author-block {% if author.is_me %}author-me{% endif %}">
+                {% if author.is_me %}
+                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if forloop.last == false %},{%
+                endif %}
+                {% else %}
+                <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
+                  }}</a>{% if forloop.last == false %},{% endif %}
+                {% endif %}
+              </span>
+              {% endfor %}
+            </div>
+            <div class="project-venue">
+              <span>{{ project.venue }}</span>
+              {% for award in project.awards %}
+                <span class="project-venue-emph">{{ award }}<span>
+              {% endfor %}
+            </div>
+            <p class="project-description">{{ project.description }}</p>
+            <!-- project Links. -->
+            <div class="project-links buttons field has-addons">
+              <a class="external-link button is-small is-ghost" href="{{ project.project_page }}">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                <span>Project Page</span>
+              </a>
+              <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ projectn.arxiv }}.pdf">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>PDF</span>
+              </a>
+              <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ project.arxiv }}">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+              {% if project.github %}
+              <a class="external-link button is-small is-ghost" href="https://github.com/{{ project.github }}">
+                <span class="icon"><i class="fa fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+              {% endif %}
+            </div>
+            <!--/ project Links. -->
+          </div>
+        </div>
+      </div>
+
       {% endfor %}
     </div>
   </section>
