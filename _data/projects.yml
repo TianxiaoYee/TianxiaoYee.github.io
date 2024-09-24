@@ -2,7 +2,7 @@
   title: "An Efficient Real-Time NMPC for UGV Trajectory Tracking Control using ACADOS"
   venue: Jun 2024 - Sep 2024
   description: "Integrating the state-of-the-art nonlinear model predictive control solver with ROS and deploying it on an autonomous vehicle."
-  project_page: https://github.com/fuwafuwaboom
+  project_page: https://github.com/TianxiaoYee
   image: ACADOS_cover.png
   image_mouseover: ACADOS_video.mp4
   authors:
@@ -12,7 +12,7 @@
   title: "Fully Automated Virtual Autonomous Vehicle Data Collection"
   venue: Jul 2024 - Aug 2024
   description: "Image, IMU, and ground truth data collection for a fully automated self-driving car based on Gazebo and ACADO."
-  project_page: https://github.com/fuwafuwaboom
+  project_page: https://github.com/TianxiaoYee
   image: AutoData_cover.png
   image_mouseover: AutoData_video.mp4
   authors:
@@ -22,7 +22,7 @@
   title: "2D Lidar-Based Autonomous Obstacle Avoidance and Navigation Vehicle"
   venue: Apr 2024 - May 2024
   description: "Autonomous navigation algorithm based on the move base algorithm and a 2D grid map using the Velodyne Puck lidar."
-  project_page: https://github.com/fuwafuwaboom
+  project_page: https://github.com/TianxiaoYee
   arxiv: 2306.12276
   image: Navigation_cover.png
   image_mouseover: Navigation_video.mp4
@@ -33,7 +33,7 @@
   title: "Handheld Visual-Inertial Odometry Design"
   venue: Feb 2024 - Mar 2024
   description: "Visual-Inertial Odometry Algorithm Based on OpenVINS Deployed on Jetson Orin Nano."
-  project_page: https://github.com/fuwafuwaboom
+  project_page: https://github.com/TianxiaoYee
   arxiv: 2306.12276
   image: VIO_cover.png
   image_mouseover: VIO_video.mp4
