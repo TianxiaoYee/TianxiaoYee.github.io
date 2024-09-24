@@ -1,4 +1,26 @@
-- id: JACKAL
+- id: ACADOS
+  title: "An Efficient Real-Time NMPC for Unmanned Ground Vehicle Trajectory Tracking Control using ACADOS"
+  venue: Sep 2024
+  description: "Surveys wildfire detection neural networks using transfer learning on visible-range camera data."
+  project_page: https://link.springer.com/article/10.1007/s11760-023-02728-3
+  arxiv: 2306.12276
+  image: wildfire_cover.png
+  image_mouseover: wildfire_video.mp4
+  authors:
+    - Tianxiao
+
+- id: VIO
+  title: "My effort"
+  venue: SIVP, 2024
+  description: "Surveys wildfire detection neural networks using transfer learning on visible-range camera data."
+  project_page: https://link.springer.com/article/10.1007/s11760-023-02728-3
+  arxiv: 2306.12276
+  image: wildfire_cover.png
+  image_mouseover: wildfire_video.mp4
+  authors:
+    - Tianxiao
+
+- id: Navigation
   title: "My effort"
   venue: SIVP, 2024
   description: "Surveys wildfire detection neural networks using transfer learning on visible-range camera data."
