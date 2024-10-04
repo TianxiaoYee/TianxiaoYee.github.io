@@ -23,7 +23,6 @@
   venue: Apr 2024 - May 2024
   description: "Autonomous navigation algorithm based on the move base algorithm and a 2D grid map using the Velodyne Puck lidar."
   project_page: https://github.com/TianxiaoYee
-  arxiv: 2306.12276
   image: Navigation_cover.png
   image_mouseover: Navigation_video.mp4
   authors:
@@ -34,7 +33,6 @@
   venue: Feb 2024 - Mar 2024
   description: "Visual-Inertial Odometry Algorithm Based on OpenVINS Deployed on Jetson Orin Nano."
   project_page: https://github.com/TianxiaoYee
-  arxiv: 2306.12276
   image: VIO_cover.png
   image_mouseover: VIO_video.mp4
   authors:
