@@ -32,7 +32,7 @@
   title: "Handheld Visual-Inertial Odometry Design"
   venue: Feb 2024 - Mar 2024
   description: "Visual-Inertial Odometry Algorithm Based on OpenVINS Deployed on Jetson Orin Nano."
-  project_page: https://github.com/TianxiaoYee
+  project_page: https://tianxiaoyee.github.io/vio.html
   image: VIO_cover.png
   image_mouseover: VIO_video.mp4
   authors:
