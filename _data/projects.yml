@@ -6,7 +6,8 @@
   image: robot_arm.png
   image_mouseover: robot_arm.mp4
   authors:
-    - Yujie Wang, Tianxiao
+    - Yujie
+    - Tianxiao
 
 
 - id: ACADOS
@@ -14,8 +15,8 @@
   venue: Jun 2024 - Sep 2024
   description: "Integrating the state-of-the-art nonlinear model predictive control solver with ROS and deploying it on an autonomous vehicle."
   project_page: https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS
-  image: ACADOS_cover.png
-  image_mouseover: ACADOS_video.mp4
+  image: ACADOS.png
+  image_mouseover: ACADOS.mp4
   authors:
     - Tianxiao
 
@@ -24,8 +25,8 @@
   venue: May 2024 - Jun 2024
   description: "Build ACADO NMPC ROS package from scratch."
   project_page: https://github.com/TianxiaoYe-Shawn/ACADO_NMPC_ROS
-  image: ACADOS_cover.png
-  image_mouseover: ACADOS_video.mp4
+  image: ACADO_cover.png
+  image_mouseover: ACADO_video.mp4
   authors:
     - Tianxiao
 
