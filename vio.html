@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Showcase engineering projects with detailed descriptions, media, and links to resources.">
+  <meta name="description" content="Project Showcase for 3D Vision - FiG-NeRF Style.">
   <title>Project Showcase</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     body {
@@ -16,55 +16,82 @@
       color: #333;
     }
     header {
-      background-color: #007BFF;
-      color: #fff;
-      padding: 20px;
       text-align: center;
+      padding: 20px 0;
+      background-color: #ffffff;
+      border-bottom: 2px solid #e0e0e0;
     }
     header h1 {
-      margin: 0;
       font-size: 2.5rem;
+      margin: 0;
     }
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
+    header .subtitle {
+      font-size: 1.2rem;
+      color: #555;
+      margin-top: 5px;
     }
-    .project {
+    main {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 0 20px;
       background-color: #fff;
-      border-radius: 8px;
-      margin-bottom: 30px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    main h2 {
+      text-align: center;
+      color: #007BFF;
+      font-size: 1.75rem;
+      margin-bottom: 20px;
+    }
+    .authors {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .authors span {
+      margin-right: 10px;
+    }
+    .conference {
+      text-align: center;
+      font-weight: bold;
+      color: #e74c3c;
+      font-size: 1.25rem;
+      margin-top: 5px;
+    }
+    .arxiv-btn {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .arxiv-btn:hover {
+      background-color: #555;
+    }
+    .project-image {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .project-image img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .abstract-section {
       padding: 20px;
     }
-    .project h2 {
-      font-size: 1.75rem;
-      margin-top: 0;
+    .abstract-section h3 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      text-align: center;
     }
-    .project p {
+    .abstract-section p {
       font-size: 1.1rem;
       line-height: 1.6;
-      color: #555;
-    }
-    .project video, .project img {
-      max-width: 100%;
-      border-radius: 8px;
-    }
-    .links {
-      margin-top: 15px;
-    }
-    .links a {
-      text-decoration: none;
-      padding: 10px 15px;
-      border-radius: 5px;
-      margin-right: 10px;
-      background-color: #007BFF;
-      color: #fff;
-      font-weight: 500;
-      transition: background-color 0.3s;
-    }
-    .links a:hover {
-      background-color: #0056b3;
+      text-align: justify;
     }
     footer {
       text-align: center;
@@ -74,72 +101,64 @@
     }
     footer p {
       margin: 0;
+      font-size: 0.9rem;
     }
-    @media (max-width: 768px) {
-      .project {
-        padding: 15px;
-      }
+    footer a {
+      color: #007BFF;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>My Engineering Projects</h1>
+  <h1>Project Title: FiG-NeRF</h1>
+  <p class="subtitle">Figure Ground Neural Radiance Fields for 3D Object Category Modelling</p>
 </header>
 
-<div class="container">
-
-  <!-- Project 1 -->
-  <div class="project">
-    <h2>Project 1: Real-Time NMPC for UGV Trajectory Tracking</h2>
-    <p>
-      This project integrates a state-of-the-art nonlinear model predictive control (NMPC) solver with ROS, 
-      deploying it on an autonomous vehicle to perform real-time trajectory tracking.
-    </p>
-    <img src="path_to_your_image.jpg" alt="Project 1 Image">
-    <div class="links">
-      <a href="https://github.com/your_github" target="_blank"><i class="fab fa-github"></i> Code</a>
-      <a href="path_to_your_pdf.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
-      <a href="https://www.youtube.com/watch?v=your_video" target="_blank"><i class="fab fa-youtube"></i> Video</a>
-    </div>
+<main>
+  <h2>Presented by:</h2>
+  <div class="authors">
+    <span>Christopher Xie<sup>1</sup></span>,
+    <span>Keunhong Park<sup>1</sup></span>,
+    <span>Ricardo Martin-Brualla<sup>2</sup></span>,
+    <span>Matthew Brown<sup>2</sup></span>
+  </div>
+  <div class="authors">
+    <span><sup>1</sup>University of Washington</span>,
+    <span><sup>2</sup>Google Research</span>
   </div>
 
-  <!-- Project 2 -->
-  <div class="project">
-    <h2>Project 2: Automated Data Collection for Autonomous Vehicles</h2>
-    <p>
-      In this project, we developed a fully automated system for collecting visual, inertial, and ground-truth data 
-      from a virtual autonomous vehicle environment in Gazebo using ACADO for simulation.
-    </p>
-    <video controls>
-      <source src="path_to_your_video.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <div class="links">
-      <a href="https://github.com/your_github" target="_blank"><i class="fab fa-github"></i> Code</a>
-      <a href="path_to_your_pdf.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
-    </div>
+  <div class="conference">
+    International Conference on 3D Vision - 3DV, 2021
   </div>
 
-  <!-- Project 3 -->
-  <div class="project">
-    <h2>Project 3: 2D Lidar-Based Navigation System</h2>
-    <p>
-      A navigation system that uses 2D Lidar for obstacle avoidance and path planning. 
-      It uses the move base algorithm and generates a 2D grid map with a Velodyne Puck Lidar.
-    </p>
-    <img src="path_to_lidar_image.jpg" alt="Project 3 Image">
-    <div class="links">
-      <a href="https://github.com/your_github" target="_blank"><i class="fab fa-github"></i> Code</a>
-      <a href="path_to_your_pdf.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
-    </div>
+  <a href="https://arxiv.org/abs/2011.12948" class="arxiv-btn" target="_blank">
+    <i class="ai ai-arxiv"></i> arXiv
+  </a>
+
+  <div class="project-image">
+    <img src="path_to_your_image.jpg" alt="Project Image">
+    <p>FiG-NeRF can learn high quality 3D object category models from casually captured images of objects.</p>
   </div>
 
-</div>
+  <div class="abstract-section">
+    <h3>Abstract</h3>
+    <p>
+      We investigate the use of Neural Radiance Fields (NeRF) to learn high quality 3D object category models from collections of input images. 
+      In contrast to previous work, we are able to do this whilst simultaneously separating foreground objects from their varying backgrounds.
+      We achieve this via a 2-component NeRF model, FiG-NeRF, that prefers explanation of the scene as a geometrically constant background and a deformable foreground that represents the object category.
+    </p>
+    <p>
+      Our method allows for accurate and crisp amodal segmentation, and we show it can be used for photorealistic rendering from arbitrary viewpoints.
+      We evaluate our method by capturing casually taken images of objects with complex backgrounds, demonstrating high-fidelity reconstructions.
+    </p>
+  </div>
+
+</main>
 
 <footer>
-  <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+  <p>© 2024 Your Name. All Rights Reserved. | <a href="https://yourwebsite.com">Your Website</a></p>
 </footer>
 
 </body>
