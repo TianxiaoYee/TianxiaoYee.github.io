@@ -1,8 +1,29 @@
+- id: Multi
+  title: "Multirate Visual Servoing Robust Control using NMPC and CBF"
+  venue: Sep 2024 - now
+  description: "Trajectory Planning and Robust Safe Control for Visual Servoing Systems under Noise via Coupling of Control Barrier Functions and Nonlinear Model Predictive Control"
+  project_page: https://github.com/TianxiaoYe-Shawn/Ufactory_xArm_7
+  image: robot_arm.png
+  image_mouseover: robot_arm.mp4
+  authors:
+    - Yujie Wang, Tianxiao
+
+
 - id: ACADOS
   title: "An Efficient Real-Time NMPC for UGV Trajectory Tracking Control using ACADOS"
   venue: Jun 2024 - Sep 2024
   description: "Integrating the state-of-the-art nonlinear model predictive control solver with ROS and deploying it on an autonomous vehicle."
-  project_page: https://github.com/TianxiaoYee
+  project_page: https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS
+  image: ACADOS_cover.png
+  image_mouseover: ACADOS_video.mp4
+  authors:
+    - Tianxiao
+
+- id: ACADO
+  title: "An Efficient Real-Time NMPC for UGV Trajectory Tracking Control using ACADO-Toolkits"
+  venue: May 2024 - Jun 2024
+  description: "Build ACADO NMPC ROS package from scratch."
+  project_page: https://github.com/TianxiaoYe-Shawn/ACADO_NMPC_ROS
   image: ACADOS_cover.png
   image_mouseover: ACADOS_video.mp4
   authors:
@@ -12,7 +33,7 @@
   title: "Fully Automated Virtual Autonomous Vehicle Data Collection"
   venue: Jul 2024 - Aug 2024
   description: "Image, IMU, and ground truth data collection for a fully automated self-driving car based on Gazebo and ACADO."
-  project_page: https://github.com/TianxiaoYee
+  project_page: https://github.com/TianxiaoYe-Shawn/AutoPower1-Data-Collector
   image: AutoData_cover.png
   image_mouseover: AutoData_video.mp4
   authors:
@@ -22,7 +43,7 @@
   title: "2D Lidar-Based Autonomous Obstacle Avoidance and Navigation Vehicle"
   venue: Apr 2024 - May 2024
   description: "Autonomous navigation algorithm based on the move base algorithm and a 2D grid map using the Velodyne Puck lidar."
-  project_page: https://github.com/TianxiaoYee
+  project_page: https://tianxiaoye-shawn.github.io/2024/03/15/jackal_lidar/
   image: Navigation_cover.png
   image_mouseover: Navigation_video.mp4
   authors:
@@ -32,7 +53,7 @@
   title: "Handheld Visual-Inertial Odometry Design"
   venue: Feb 2024 - Mar 2024
   description: "Visual-Inertial Odometry Algorithm Based on OpenVINS Deployed on Jetson Orin Nano."
-  project_page: https://tianxiaoyee.github.io/vio.html
+  project_page: https://tianxiaoye-shawn.github.io/2024/01/22/VIO/
   image: VIO_cover.png
   image_mouseover: VIO_video.mp4
   authors:
